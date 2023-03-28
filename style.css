@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    padding: 100px;
+    border-radius: 16px;
+    text-align: center;
+    width: 60%;
+}
+
+.container h1{
+    font-size: 100px;
+}
+
+.container button{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ #add{
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+#reset{
+    border: none;
+}
+
+#sub{
+    background-color: green;
+    border: none;
+    color: white;
+}
